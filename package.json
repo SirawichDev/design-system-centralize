@@ -1,0 +1,15 @@
+{
+  "name": "d-centralize",
+  "version": "1.0.0",
+  "description": "purpose to make a simple version of design system",
+  "main": "index.js",
+  "scripts": {
+    "make-tokens": "style-dictionary build --config ./src/foundation/style-dictionary.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SirawichDev",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^4.3.3"
+  }
+}
